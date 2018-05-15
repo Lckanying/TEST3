@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ijk"
+    android:gravity="center"
+    tools:context=".Activity.IjkAcitivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        >
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/btn_h"
+        android:layout_margin="5dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+
+        android:background="@color/primary_dark"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="半屏播放"
+            android:textColor="@color/aluminum"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/btn_v"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_margin="5dp"
+        android:background="@color/color_blue"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="竖屏播放"
+            android:textColor="@color/aluminum"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/btn_live"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_margin="5dp"
+        android:background="@color/color_yellow"
+        android:gravity="center"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="直播"
+            android:textColor="@color/aluminum"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/btn_origin"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="@color/rb_foucs_color"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原生ijkplayer播放"
+            android:textColor="@color/aluminum"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

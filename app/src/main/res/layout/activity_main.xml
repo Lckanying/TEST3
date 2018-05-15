@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_Layout"
+    android:background="@color/color_yellow_deep"
+    tools:context="net.ossrs.yasea.demo.Activity.MainActivity">
+
+
+
+
+    <LinearLayout
+
+        android:id="@+id/top_ll"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/color_yellow"
+            >
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_yellow_deep"
+                android:text="推流地址："
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:id="@+id/url"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color_yellow_deep" />
+            <Button
+                android:layout_margin="6dp"
+                 android:textSize="10dp"
+                android:id="@+id/beauty_per"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="美丽一下"
+                android:textColor="@color/white"
+                android:background="@color/color_yellow_deep"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <net.ossrs.yasea.SrsCameraView
+
+        android:layout_below="@id/top_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/glsurfaceview_camera"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" >
+
+
+
+
+    </net.ossrs.yasea.SrsCameraView>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <master.flame.danmaku.ui.widget.DanmakuView
+            android:id="@+id/danmaku_view"
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+
+        >
+    <Button
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始推流"
+        android:background="@color/color_yellow"
+        android:id="@+id/publish"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更换摄像头"
+        android:background="@color/color_yellow"
+        android:id="@+id/swCam"
+        android:layout_alignBottom="@+id/publish"
+        android:layout_toRightOf="@+id/publish" />
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="屏幕录制"
+        android:background="@color/color_yellow"
+        android:id="@+id/record"
+        android:layout_alignBottom="@+id/publish"
+        android:layout_toRightOf="@id/swCam" />
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/color_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="软编码器"
+        android:id="@+id/swEnc"
+        android:layout_alignBottom="@+id/publish"
+        android:layout_toRightOf="@id/record"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

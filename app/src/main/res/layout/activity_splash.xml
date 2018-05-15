@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.SplashActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/zbbg"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <ProgressBar
+            android:layout_centerHorizontal="true"
+            android:id="@+id/dog_pg"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            style="?android:progressBarStyleInverse"
+            android:indeterminateDrawable="@drawable/loading_list"
+            />
+        <TextView
+            android:layout_below="@id/dog_pg"
+            android:id="@+id/main_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splase_text"
+            android:textColor="@color/color_white"
+            />
+    </RelativeLayout>
+</LinearLayout>

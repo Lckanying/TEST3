@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_yellow">#faee08</color>
+    <color name="color_yellow_deep">#f9950a</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_black">#030303</color>
+    <color name="color_blue">#03d2f7</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_gray">#a6a4a4</color>
+    <color name="rb_foucs_color">#3bf906</color>
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cl_default">#424242</color>
+    <color name="cl_error">#ffffff</color>
+
+    <color name="dialog_blue">#0083FF</color>
+</resources>

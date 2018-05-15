@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">七彩直播</string>
+    <string name="splase_text">你身边的直播平台</string>
+    <string name="login_success">登录成功</string>
+    <string name="login">登录</string>
+    <string name="Username">用户名</string>
+    <string name="Password">密码</string>
+    <string name="forgot_your_password">忘记密码?</string>
+    <string name="go">进入</string>
+    <string name="repeat_password">确认密码</string>
+    <string name="next">下一步</string>
+    <string name="register">注册</string>
+
+    <string name="radiobutton_wechat">直播</string>
+
+    <string name="radiobutton_contacts">关注</string>
+
+    <string name="radiobutton_discovery">视频</string>
+
+    <string name="radiobutton_me">我的</string>
+
+    <string name="contacts_title1">王者荣耀</string>
+    <string name="contacts_title2">绝地逃生</string>
+</resources>
